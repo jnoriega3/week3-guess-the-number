@@ -49,13 +49,13 @@ def askUserToGuess( times, secretNumber ):
 def evaluateAnswer( userGuess, userSecretNumber ):
     
         if userGuess < userSecretNumber:
-        print('Your guess is too low.')
-        return False
+            print('Your guess is too low.')
+            return False
         elif userGuess > userSecretNumber:
-        print('Your guess is too high.')
-        return False
+            print('Your guess is too high.')
+            return False
         else:
-        return True
+            return True
     
     # TO DO: ####################################################
     # Write code in this function that compares userGuess and   #
