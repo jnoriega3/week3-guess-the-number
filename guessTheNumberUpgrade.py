@@ -48,14 +48,14 @@ def askUserToGuess( times, secretNumber ):
 #   the 'userSecretNumber' parameter is the randomly generated number
 def evaluateAnswer( userGuess, userSecretNumber ):
     
-        if userGuess < userSecretNumber:
-            print('Your guess is too low.')
-            return False
-        elif userGuess > userSecretNumber:
-            print('Your guess is too high.')
-            return False
-        else:
-            return True
+    if userGuess < userSecretNumber:
+        print('Your guess is too low.')
+        return False
+    elif userGuess > userSecretNumber:
+        print('Your guess is too high.')
+        return False
+    else:
+        return True
     
     # TO DO: ####################################################
     # Write code in this function that compares userGuess and   #
